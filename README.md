@@ -32,6 +32,9 @@ For more information, please reference to *Install section*.
 
 # Changelog
 - 10/04 2021
+    1. Add map server to install script
+
+- 10/04 2021
     1. First commit
 
 # Copyright

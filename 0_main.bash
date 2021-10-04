@@ -40,7 +40,7 @@ echo '' >> ~/.bashrc
 source ~/.bashrc
 
 # Intsall other components.
-sudo apt install ros-noetic-realsense2-camera ros-noetic-imu-filter-madgwick ros-noetic-rtabmap-ros ros-noetic-robot-localization -y
+sudo apt install ros-noetic-realsense2-camera ros-noetic-imu-filter-madgwick ros-noetic-rtabmap-ros ros-noetic-robot-localization ros-noetic-map-server -y
 
 # Install config.
 if [[ -d '/opt/ros/noetic/share/rtabmap_ros/launch/config' ]]
