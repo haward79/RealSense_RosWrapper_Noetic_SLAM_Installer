@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rqt_image_view /camera/color/image_raw &
+rqt_image_view /camera/depth/image_rect_raw &
+
+

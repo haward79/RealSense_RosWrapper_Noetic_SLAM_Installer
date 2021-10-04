@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm "$HOME/.ros/rtabmap.db"
+roslaunch realsense2_camera opensource_tracking.launch
+
