@@ -31,6 +31,9 @@ For more information, please reference to *Install section*.
         ./0_main.bash
 
 # Changelog
+- 10/06 2021
+    1. Change config file. (Add localization pose scene)
+    
 - 10/04 2021
     1. Add map server to install script
 
