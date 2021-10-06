@@ -32,6 +32,9 @@ For more information, please reference to *Install section*.
 
 # Changelog
 - 10/06 2021
+    1. Edit script slam_view_color_depth. The script will show aligned images of rgb and depth.
+
+- 10/06 2021
     1. Change config file.
     2. Add a start script.
 
