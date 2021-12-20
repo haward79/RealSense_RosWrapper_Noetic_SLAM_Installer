@@ -31,6 +31,10 @@ For more information, please reference to *Install section*.
         ./0_main.bash
 
 # Changelog
+- 12/21 2021
+    1. Add dependency python3-roslaunch to install.
+    2. Add execution permission for scripts.
+    
 - 10/06 2021
     1. Edit script slam_view_color_depth. The script will show aligned images of rgb and depth.
 

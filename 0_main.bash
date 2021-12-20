@@ -40,7 +40,7 @@ echo '' >> ~/.bashrc
 source ~/.bashrc
 
 # Intsall other components.
-sudo apt install ros-noetic-realsense2-camera ros-noetic-imu-filter-madgwick ros-noetic-rtabmap-ros ros-noetic-robot-localization ros-noetic-map-server -y
+sudo apt install ros-noetic-realsense2-camera ros-noetic-imu-filter-madgwick ros-noetic-rtabmap-ros ros-noetic-robot-localization ros-noetic-map-server python3-roslaunch -y
 
 # Install config.
 if [[ -d '/opt/ros/noetic/share/rtabmap_ros/launch/config' ]]
@@ -59,6 +59,7 @@ echo ''
 
 if [[ -d "$HOME/Scripts" ]]
 then
+	chmod u+x scripts/*
     cp scripts/* "$HOME/Scripts/"
     echo 'These scripts are also available.'
     echo '  $ slam_start'
